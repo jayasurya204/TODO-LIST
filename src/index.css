@@ -1,0 +1,97 @@
+* {
+  text-align: center;
+
+
+}
+
+.header {
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 2%;
+}
+
+/* .App{
+ 
+} */
+main {
+  display: flex;
+  font-size: large;
+  font-weight: 900;
+  padding: 10%;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+main button {
+  width: 100%;
+  background-color: rgb(73, 73, 255);
+  color: rgb(142, 182, 218);
+  padding: 5px;
+
+}
+
+button:hover {
+  background-color: rgb(175, 175, 219);
+}
+
+li {
+  padding: 5px;
+}
+
+footer {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: blue;
+  padding: 1%;
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.5rem;
+  margin: 0.25rem 0;
+  background-color: rgb(234, 234, 240);
+}
+
+.item svg {
+  display: flex;
+  color: rgb(50, 47, 243);
+  padding: 5px;
+  align-items: end;
+  width: 2.5rem;
+  width: 48px;
+  height: 2.5rem;
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.item input[type="checkbox"] {
+  text-align: center;
+  width: 2.5rem;
+  width: 48px;
+  height: 2.5rem;
+  min-width: 48px;
+  min-height: 48px;
+  cursor: pointer;
+  margin: 0.5rem;
+  background-color: blue;
+
+}
+
+.item input [type='checkbox']:focus+label {
+  text-decoration: underline;
+  background-color: blue;
+}
+.item > label {
+  font-size: 1.75rem;
+  flex-grow: 1;
+}
+.item svg:focus,
+.items svg:hover {
+  color: rgb(0, 0, 224);
+}
