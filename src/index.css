@@ -25,7 +25,37 @@ main {
 
 }
 
+.addform {
+  display: flex;
+  padding: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.addforms input[type="text"] {
+  margin: 0.25rem;
+  padding: .5rem;
+
+}
+.addforms label{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: larger;
+
+
+}
+
+.addforms button[type='submit'] {
+  margin: 1.25rem;
+  padding: .5rem;
+  color: blue;
+}
+.addforms button:hover {
+  background-color: rgb(175, 175, 219);
+}
+
+
 main button {
+
   width: 100%;
   background-color: rgb(73, 73, 255);
   color: rgb(142, 182, 218);
@@ -87,10 +117,12 @@ footer {
   text-decoration: underline;
   background-color: blue;
 }
-.item > label {
+
+.item>label {
   font-size: 1.75rem;
   flex-grow: 1;
 }
+
 .item svg:focus,
 .items svg:hover {
   color: rgb(0, 0, 224);
